@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Print - Gráfica Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Efectos de fondo -->
+        <div class="splash splash-cyan"></div>
+        <div class="splash splash-magenta"></div>
+        <div class="splash splash-yellow"></div>
+        <div class="splash splash-black"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <!-- Logo tipo splash CMYK -->
+                <div class="logo-container">
+                    <h1 class="logo">
+                        <span class="letter">T</span>
+                        <span class="letter">h</span>
+                        <span class="letter">e</span>
+                        <span class="space"></span>
+                        <span class="letter">P</span>
+                        <span class="letter">r</span>
+                        <span class="letter">i</span>
+                        <span class="letter">n</span>
+                        <span class="letter">t</span>
+                    </h1>
+                    <div class="logo-splash"></div>
+                </div>
+                
+                <p class="hero-subtitle">Gráfica Digital</p>
+                
+                <!-- Imagen principal -->
+                <div class="hero-image">
+                    <img src="tarjeta.jpg" alt="The Print - Principal" style="width: 100%; max-width: 500px; border-radius: 20px; box-shadow: var(--shadow); border: 2px solid var(--cyan);">
+                </div>
+                
+                <!-- Botón WhatsApp -->
+                <a href="https://wa.me/5492262584657?text=Hola,%20quiero%20información%20sobre%20sus%20servicios" 
+                   class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Contactar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorias Section -->
+    <section class="categorias" id="categorias" style="position: relative; z-index: 10;">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="categorias-grid">
+                <a href="gorras.html" class="categoria-card" style="text-decoration: none;">
+                    <div class="categoria-img">
+                        <i class="fas fa-hat-cowboy"></i>
+                    </div>
+                    <div class="categoria-overlay">
+                        <span class="categoria-label">Gorras</span>
+                    </div>
+                </a>
+                
+                <a href="corporeos.html" class="categoria-card" style="text-decoration: none;">
+                    <div class="categoria-img">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="categoria-overlay">
+                        <span class="categoria-label">Corpóreos</span>
+                    </div>
+                </a>
+                
+                <a href="disenos.html" class="categoria-card" style="text-decoration: none;">
+                    <div class="categoria-img">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="categoria-overlay">
+                        <span class="categoria-label">Diseños</span>
+                    </div>
+                </a>
+                
+                <a href="tazas.html" class="categoria-card" style="text-decoration: none;">
+                    <div class="categoria-img">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="categoria-overlay">
+                        <span class="categoria-label">Tazas</span>
+                    </div>
+                </a>
+                
+                <a href="camiones.html" class="categoria-card" style="text-decoration: none;">
+                    <div class="categoria-img">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="categoria-overlay">
+                        <span class="categoria-label">Camiones</span>
+                    </div>
+                </a>
+                
+                <a href="motos.html" class="categoria-card" style="text-decoration: none;">
+                    <div class="categoria-img">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <div class="categoria-overlay">
+                        <span class="categoria-label">Motos</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Gigantografía</h3>
+                    <p>Impresiones de gran formato para publicidad de alto impacto.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Diseños Personalizados</h3>
+                    <p>Plasmamos tu idea de forma creativa en cualquier formato.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Plotter</h3>
+                    <p>Cortes precisos y rotulados de alta calidad para tu marca.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-sign"></i>
+                    </div>
+                    <h3>Cartelería</h3>
+                    <p>Soluciones gráficas interiores y exteriores duraderas.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Estampados</h3>
+                    <p>Aplicación de diseños en gran variedad de materiales textiles.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h3>Sublimación</h3>
+                    <p>Estampado digital sobre objetos promocionales con acabado premium.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <div class="benefits-grid">
+                
+                <div class="benefit-card" data-aos="zoom-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Alta Calidad</h3>
+                    <p>Materiales buenos y terminaciones cuidadas para un producto final impecable.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="benefit-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Colores Vibrantes</h3>
+                    <p>Diseños adaptados a tu estilo e identidad visual.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="benefit-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Entregas Rápidas</h3>
+                    <p>Somos locales de Quequén, cerca para brindarte soluciones rápidas y efectivas.</p>
+                </div>
+                
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Atendido por Luigi. Trato directo, garantía de confianza y siempre con buena onda.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h2>¡Hablemos de tu proyecto!</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Nombre</h4>
+                            <p>Luis Romero</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>2262-584657</p>
+                        </div>
+                    </div>
+                    
+                    <a href="https://wa.me/5492262584657?text=Hola%20Luis,%20vi%20la%20web%20de%20The%20Print" 
+                       class="whatsapp-btn-large" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Contactar por WhatsApp
+                    </a>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <h3>Envianos un mensaje</h3>
+                        <input type="text" placeholder="Tu nombre" required>
+                        <input type="email" placeholder="Tu email" required>
+                        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón flotante de WhatsApp -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/5492262584657?text=Hola,%20quiero%20más%20información" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
